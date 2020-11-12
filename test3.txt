@@ -1,0 +1,59 @@
+de creat o baza de date mysql cu urmatoarele tabele:
+
+users: id, email, password
+posts: id, user_id, title, body
+comments: id, user_id, post_id, body
+
+de scris urmatoarele script-uri:
+
+1 - scoti toate post-urile userului cu id 5 (ordonat dupa id de post descrescator)
+2 - de scos cele mai recente 5 comentarii pentru oricare post al userului 3
+
+php
+
+1 - parcurgerea unui array de nume fructe si calculat cea mai mare lungime a unui nume de fruct 
+2 - reordonarea array-ului in functie de lungimea numelui fiecarui fruct
+3 - trimis spre browser un fisier PDF de pe hdd server, cu header potrivit pentru PDF
+4 - testat un string daca este o adresa email valida, folosind regexp
+
+ ----------------------------------------------------------------------------------------------------------------------------------
+pentru asta aveti nevoie de versiunea PHP >7 si in php.ini extensia "php_openssl.dll" activat / enabled.
+
+http://cursuri.cs.pub.ro/~radulescu/bd/sql9/cap10.html
+https://mysqlserverteam.com/protecting-mysql-passwords-with-the-sha256_password-plugin/
+https://html.developreference.com/article/17327087/PHP7%3A+Unknown+hashing+algorithm%3A+sha256
+https://www.tutorialspoint.com/how-to-validate-an-email-address-in-php
+
+https://www.youtube.com/watch?v=7HTAX0dfJqg key straina
+https://www.youtube.com/watch?v=7HTAX0dfJqg
+
+
+https://dba.stackexchange.com/questions/129023/selecting-data-from-another-table-using-a-foreign-key select din tabela A unde id e foreign-key in tabela B
+
+https://www.geeksforgeeks.org/php-usort-function/ 
+https://www.w3resource.com/php/function-reference/usort.php
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+FOREIGN KEY
+https://www.mysqltutorial.org/mysql-foreign-key/
+
+
+
+https://marplo.net/php-mysql/baze_de_date.html#dlt_javascript
+https://www.ro.w3ki.com/mysql/mysql-create-tables.html
+https://docs.woocommerce.com/document/woocommerce-cookies/
+
+ARRAY
+https://www.tutorialrepublic.com/php-tutorial/php-file-download.php
+https://www.php.net/manual/en/array.sorting.php
+https://code.tutsplus.com/tutorials/how-to-sort-arrays-in-php--cms-32313
+https://www.php.net/manual/en/ref.array.php
+https://www.geeksforgeeks.org/php-sort-array-strings-natural-standard-orders/?ref=rp
+https://code.tutsplus.com/tutorials/how-to-sort-arrays-in-php--cms-32313
+
+SORT
+https://stackoverflow.com/questions/24874734/php-sort-array-by-value-length/24874824
+https://stackoverflow.com/questions/838227/php-sort-an-array-by-the-length-of-its-values
+
